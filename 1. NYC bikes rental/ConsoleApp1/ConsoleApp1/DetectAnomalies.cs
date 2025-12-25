@@ -173,7 +173,7 @@ namespace ConsoleApp1
         
         static void TripDurationConsistencyCheck(List<Trip> trips)
         {
-            Console.WriteLine("\nTrip duration consistency check (> 1s)");
+            Console.WriteLine("Trip duration consistency check (> 1s)");
 
             long total = 0;
             long inconsistent = 0;
